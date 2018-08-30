@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TableRow>
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnIncrement" />
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnIncrement2"/>
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:text="20"
+			android:textSize="45sp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtNumber"
+			android:layout_weight="1"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp" />
+		<TextView
+			android:text="20"
+			android:textSize="45sp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtNumber2"
+			android:layout_weight="1"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp" />
+	</TableRow>
+	<TableRow>
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnDecrement" />
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnDecrement2" />
+	</TableRow>
+</TableLayout>
