@@ -2384,17 +2384,47 @@ namespace XamarinTesting
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F010022
+			public const int btnBlackManaDec = 2130772002;
+			
+			// aapt resource value: 0x7F010012
+			public const int btnBlackManaInc = 2130771986;
+			
+			// aapt resource value: 0x7F010019
+			public const int btnBlueManaDec = 2130771993;
+			
+			// aapt resource value: 0x7F010009
+			public const int btnBlueManaInc = 2130771977;
+			
 			// aapt resource value: 0x7F010006
 			public const int btnDecrement = 2130771974;
 			
 			// aapt resource value: 0x7F010007
 			public const int btnDecrement2 = 2130771975;
 			
+			// aapt resource value: 0x7F010021
+			public const int btnGreenManaDec = 2130772001;
+			
+			// aapt resource value: 0x7F010011
+			public const int btnGreenManaInc = 2130771985;
+			
 			// aapt resource value: 0x7F010002
 			public const int btnIncrement = 2130771970;
 			
 			// aapt resource value: 0x7F010003
 			public const int btnIncrement2 = 2130771971;
+			
+			// aapt resource value: 0x7F010020
+			public const int btnRedManaDec = 2130772000;
+			
+			// aapt resource value: 0x7F010010
+			public const int btnRedManaInc = 2130771984;
+			
+			// aapt resource value: 0x7F010018
+			public const int btnWhiteManaDec = 2130771992;
+			
+			// aapt resource value: 0x7F010008
+			public const int btnWhiteManaInc = 2130771976;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2735,11 +2765,26 @@ namespace XamarinTesting
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F010017
+			public const int txtBlackMana = 2130771991;
+			
+			// aapt resource value: 0x7F010014
+			public const int txtBlueMana = 2130771988;
+			
+			// aapt resource value: 0x7F010016
+			public const int txtGreenMana = 2130771990;
+			
 			// aapt resource value: 0x7F010004
-			public const int txtNumber = 2130771972;
+			public const int txtPlayerOneLife = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int txtNumber2 = 2130771973;
+			public const int txtPLayerTwoLife = 2130771973;
+			
+			// aapt resource value: 0x7F010015
+			public const int txtRedMana = 2130771989;
+			
+			// aapt resource value: 0x7F010013
+			public const int txtWhiteMana = 2130771987;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;

@@ -29,7 +29,7 @@
 			android:gravity="center"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/txtNumber"
+			android:id="@+id/txtPlayerOneLife"
 			android:layout_weight="1"
 			android:layout_marginBottom="5dp"
 			android:layout_marginTop="5dp" />
@@ -39,7 +39,7 @@
 			android:gravity="center"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/txtNumber2"
+			android:id="@+id/txtPLayerTwoLife"
 			android:layout_weight="1"
 			android:layout_marginBottom="5dp"
 			android:layout_marginTop="5dp" />
@@ -57,5 +57,114 @@
 			android:layout_height="wrap_content"
 			android:layout_weight="1"
 			android:id="@+id/btnDecrement2" />
+	</TableRow>
+
+
+	<TableRow>
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnWhiteManaInc" />
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnBlueManaInc"/>
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnRedManaInc" />
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnGreenManaInc"/>
+		<Button
+			android:text="+1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnBlackManaInc"/>
+	</TableRow>
+	<TableRow>
+		
+		<TextView
+			android:text="0"
+			android:textSize="45sp"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtWhiteMana"
+			android:layout_weight="1"/>
+		<TextView
+			android:text="0"
+			android:textSize="45sp"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtBlueMana"
+			android:layout_weight="1"/>
+		<TextView
+			android:text="0"
+			android:textSize="45sp"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtRedMana"
+			android:layout_weight="1"/>
+		<TextView
+			android:text="0"
+			android:textSize="45sp"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtGreenMana"
+			android:layout_weight="1"/>
+		<TextView
+			android:text="0"
+			android:textSize="45sp"
+			android:gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtBlackMana"
+			android:layout_weight="1"/>
+	</TableRow>
+	<TableRow>
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnWhiteManaDec" />
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnBlueManaDec" />
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnRedManaDec" />
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnGreenManaDec" />
+		<Button
+			android:text="-1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:id="@+id/btnBlackManaDec" />
 	</TableRow>
 </TableLayout>
